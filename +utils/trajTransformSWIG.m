@@ -5,7 +5,7 @@ xx = x .* sqrt(1 - (y.^2)./2 - (z.^2)./2 + (y.^2.*z.^2)./3);
 yy = y .* sqrt(1 - (z.^2)./2 - (x.^2)./2 + (z.^2.*x.^2)./3);
 zz = z .* sqrt(1 - (x.^2)./2 - (y.^2)./2 + (x.^2.*y.^2)./3);
 
-% Cartesian to Spherical coordinates
+% Cartesian to spherical coordinates
 azi = atan2(xx,yy);
 pol = atan2(sqrt(xx.^2+yy.^2), zz);
 
