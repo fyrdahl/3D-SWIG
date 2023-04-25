@@ -16,8 +16,11 @@ A = [0 1 0; 0 0 1; 1 0 1];
 [V, ~] = eigs(A);
 phi = V(:,1)/max(V(:,1));
 
-phi2 = round(1/(N-1+1/phi(2)), 4);
-phi1 = round(phi2/(1+phi(1)), 4);
-    
+if N > 1
+    phi2 = 1/(N-1+1/phi(2));
+    phi1 = phi2/(1+phi(1));
+else
+    phi1 = phi(1);
+    phi2 = phi(2);
 end
 
