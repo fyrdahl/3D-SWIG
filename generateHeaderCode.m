@@ -12,7 +12,9 @@ if nargin < 2
     matlab_code = false;
 end
 
-fid = fopen('header/swig3d.h', 'w+');
+if ~exist([pwd filesep 'headers'], 'dir')
+    mkdir([pwd filesep 'headers']);
+end
 
 fprintf(fid, '/**\n');
 fprintf(fid, '* \\brief Look-up tables for 3D-SWIG trajectories\n');

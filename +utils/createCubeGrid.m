@@ -104,6 +104,6 @@ if do_plot
     set(cb,'YTick', linspace(cblim(1), cblim(2), 2*N+1))
     set(cb,'YTickLabel', string(linspace(0, patches, 2*N+1)));
     set(ax, 'FontSize', 16);
-    exportgraphics(ax, sprintf('figures/grid_%i.png', 12*N^2));
+    exportgraphics(ax, sprintf(['figures' filesep 'grid_%i.png'], 12*N^2));
 end
 end

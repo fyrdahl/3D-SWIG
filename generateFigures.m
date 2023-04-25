@@ -1,7 +1,7 @@
 close all; clearvars; clc;
 
-if ~exist([pwd '/figures'], 'dir')
-    mkdir([pwd '/figures']);
+if ~exist([pwd filesep 'figures'], 'dir')
+    mkdir([pwd filesep 'figures']);
 end
 
 for N = 2:4

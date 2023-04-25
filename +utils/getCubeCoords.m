@@ -73,7 +73,7 @@ if do_plot
     set(cb,'YTick', linspace(0, 1, 2*N+1))
     set(cb,'YTickLabel', string(linspace(0, patches, 2*N+1)));
     set(gca, 'FontSize', 16);
-    exportgraphics(gca, sprintf('figures/cube_%i.png', 12*N^2));
+    exportgraphics(gca, sprintf(['figures' filesep 'cube_%i.png'], 12*N^2));
     hold off;
 end
 end
