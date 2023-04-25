@@ -28,8 +28,6 @@ if nargin < 4
 end
 
 [phi1, phi2] = utils.calcPhi(N);
-phi1 = 0.465571231876768;
-phi2 = 0.682327803828019;
 azi = zeros(1, nSpokes);
 pol = zeros(1, nSpokes);
 navCount = 0;
