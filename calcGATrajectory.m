@@ -7,7 +7,7 @@ function [azi, pol] = calcGATrajectory(nSpokes, navFreq, fullSweep, N)
 %   golden-angle trajectory with a 360 degree spoke distribution of both
 %   polar and azimuthal angles.
 %
-%   CALCGATRAJECTORY(nSpokes, true, N) calculates a tiny double
+%   CALCGATRAJECTORY(nSpokes, false, N) calculates a tiny double
 %   golden-angle trajectory as described in [2].
 %
 %   References:

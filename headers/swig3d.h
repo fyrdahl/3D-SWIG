@@ -10,7 +10,7 @@
 *     > double u_dMPhi2 = fmod(lReorderIndex*phi2, 1.0);
 * 
 * If this code is useful for your research, please consider citing:
-* Fyrdahl, A., Ullvin, A., Ramos, J.G., Seiberlich, N., Ugander, M. & Sigfridsson, A. Three-dimensional sector-wise golden-angle (3D-SWIG) – Improved k-space uniformity after ECG binning. MRM 2023. [In press]
+* Fyrdahl, A, Ullvin, A, Ramos, JG, Seiberlich, N, Ugander, M, Sigfridsson, A. Three-dimensional sector-wise golden angle–improved k-space uniformity after electrocardiogram binning. Magn Reson Med. Published online May 14, 2023. doi: 10.1002/mrm.29698
 * 
 * 2023 – Alexander Fyrdahl, PhD (alexander.fyrdahl@ki.se)
 */
