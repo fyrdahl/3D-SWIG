@@ -1,6 +1,6 @@
 function [azi, pol] = calcPHTXTrajectory(nSpokes, nInterleaves)
-%CALCGATRAJECTORY Calculate a spiral phyllotaxis trajectory
-%   CALCGATRAJECTORY(nSpokes, nInterleaves) calculates a spiral phyllotaxis
+%CALCPHTXTRAJECTORY Calculate a spiral phyllotaxis trajectory
+%   CALCPHTXTRAJECTORY(nSpokes, nInterleaves) calculates a spiral phyllotaxis
 %   trajectory as described in [1].
 %
 %   References:
